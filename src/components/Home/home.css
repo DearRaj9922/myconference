@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    scrollbar-width: none;
+}
+
+.home_body{
+    overflow-x: hidden;
+    width:100vw;
+    height:auto;
+    /* display:block; */
+    background-color: black;
+    color: white;
+}
+.home_body::-webkit-scrollbar{
+    display: none;
+}
+.top_part{
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 14vw 8vh 8vw;
+    /* gap:2vw; */
+    
+}
+.logo_part{
+    width:12vw;
+    height:auto;
+}
+.logo{
+    width: 12vw;
+}
+.top_content{
+    line-height: 1.5vh;
+
+}
+.top_content h3{
+    font-family: poor story;
+    font-size: 1.5vw;
+}
+.top_content h2{
+    font-family: poppins;
+    font-size: 2vw;
+    font-weight: 300;
+    color: #94e5ff;
+}
+.and{
+    color: #94e5ff;
+}
+.middle_content{
+    margin-top:10vh;
+    width:100vw;
+    overflow-x: hidden;
+    /* margin:0; */
+    padding: 0;
+}
+.bg_img{
+    margin-left: -50vw;
+    width:100vw;
+    position: absolute;
+    height:auto;
+    /* overflow-x: hidden; */
+    z-index: 0;
+    
+
+}
+.middle-text{
+    position: relative;
+    line-height: 2.2vh;
+    /* z-index: 1; */
+}
+.middle1{
+    padding:0 5vw 0 5vw;
+    font-size: 2.5vw;
+    font-family: poppins;
+    font-weight: 350;
+    
+}
+.middle2{
+    font-size: 2.5vw;
+    padding:2vh 0 0 0;
+    font-family: poppins;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    color: #c5fcbc;
+}
+.middle3{
+    padding:1vh 5vw 0 5vw;
+    font-family: poppins;
+}
+.middle3 h2{
+    font-size: 2.5vw;
+    color: #94e5ff;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+.middle3-para{
+    display: flex;
+   flex-direction: column;
+   /* justify-content: left; */
+   text-align: justify;
+}
+.middle3 h3{
+    line-height: 4vh;
+    justify-content: left;
+    font-size:2vw ;
+    font-weight: 400;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.app_details{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding:3vh 5vw 0 5vw;
+}
+.app_details h2{
+    font-family: poppins;
+    font-size:2vw;
+    font-weight:500;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    color: #94e5ff;
+}
+.how-aply{
+    text-align: left;
+}
+.reg-fee{
+    text-align: right;
+}
+.how-aply a{
+    color: white;
+}
+.reg-fee h4{
+    color: #94e5ff;
+}
+.links, .fees{
+    line-height: 1vh;
+}
+.bottom_content{
+    padding: 0 5vw 0 5vw;
+    position: relative;
+}
+.bottom-para1{
+    font-family: poor story;
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+.bottom-heading{
+    font-family:poppins;
+    font-size: 2vw;
+    font-weight:400;
+    color: #94e5ff;
+    padding-top: 3vh;
+}
+.qrcode{
+    width:90vw;
+    height:auto;
+    display: flex;
+    justify-content: right;
+    margin-top: -10vw;
+}
+.qr-img{
+    width:10vw;
+    height:auto;
+}
+
+.comm-member{
+    display: flex;
+    justify-content: space-between;
+    padding:5vh 0 5vh 0;
+}
+.group1,.group2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 4vh;
+    font-size: 1.3vw;
+}
+@media only screen and (max-width:1100px){
+    .group1,.group2{
+        line-height: 3vh;
+        font-size: 1.6vw;
+    }
+}
+@media only screen and (max-width:768px){
+    .group1,.group2{
+        line-height: 3vh;
+        font-size: 2vw;
+    }
+    .app_details h3{
+        font-size: 2vw;
+    }
+    .fees h4{
+        font-size:1.8vw;
+    }
+    .bottom-para1{
+        font-size: 2.5vw;
+    }
+    .top_part {
+        display: flex;
+        justify-content: space-between;
+        padding: 3vh 7vw 0 8vw;
+    }
+    .top_content{
+        line-height: 0.5vh;
+    }
+    .logo{
+        width:15vw;
+    }
+    .top_content h3{
+        font-size: 3vw;
+    }
+    .top_content h2{
+        font-size: 2vw;
+    }
+    .middle3 h3{
+        line-height: 2vh;
+    }
+
+}
