@@ -3,11 +3,13 @@ import "./home.css";
 import logo from "../../assets/iitrlogo.svg";
 import bgimg from "../../assets/bgimg.svg";
 import Qrcode from "../../assets/image 1.svg";
+import Message from "../../components/message/message.js";
 
 export default function home() {
   return (
     <>
       <div className="home_body">
+        <Message/>
         <div className="top_part">
           <div className="logo_part">
             <img src={logo} className="logo" alt="logo1" />
