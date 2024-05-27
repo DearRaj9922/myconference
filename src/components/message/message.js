@@ -15,10 +15,10 @@ export default function message() {
             <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
             <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
             <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
+            {/* <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
             <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
             <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
-            <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
-            <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div>
+            <div class="scrolling-text-item">We are currently building the website.It will be updated soon.</div> */}
         </div>
     </div>
 </div>
