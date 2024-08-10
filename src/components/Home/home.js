@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import logo from "../../assets/iitrlogo.svg";
 import bgimg from "../../assets/bgimg.svg";
-import Qrcode from "../../assets/image 1.svg";
+import Qrcode from "../../assets/qr.svg";
 import Message from "../../components/message/message.js";
 
 export default function home() {
