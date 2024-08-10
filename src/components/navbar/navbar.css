@@ -1,0 +1,20 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 2vw;
+}
+
+.link-button {
+    padding: 2vh 4vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    background-color: #5b605b;
+    color: white;
+    border: none;
+    border-radius: 1vh;
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    background-color: #4595a0;
+}
